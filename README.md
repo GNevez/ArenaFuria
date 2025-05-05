@@ -107,14 +107,6 @@ npm run dev
 cd bot
 npm run dev
 ```
-### 🚀 Deploy na Vercel
-Para subir o projeto na Vercel via CLI:
-
-```
-vercel login
-vercel
-```
-Configure as variáveis de ambiente no painel da Vercel ou via vercel env.
 
 ### 👤 Sobre o Desenvolvedor
 **Guilherme Neves M Ferraz**
