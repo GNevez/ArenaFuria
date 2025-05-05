@@ -1,7 +1,8 @@
 # 🎮 FURIA Arena - Landing Page & Telegram Bot
 
-Este projeto foi desenvolvido como parte de um processo seletivo para a **FURIA E-Sports**. Trata-se de uma **Landing Page** com sistema de login e cadastro, integração com APIs de jogos, quizzes interativos, e um bot do Telegram que envia notificações aos usuários.
+Este projeto foi desenvolvido como parte de um processo seletivo para a FURIA E-Sports. A aplicação é uma Landing Page interativa com funcionalidades de login e cadastro, integração com APIs de jogos (como Twitch e Steam), quizzes personalizados para descobrir o "Nível de Fúria" do usuário, e um bot do Telegram que envia notificações aos jogadores sobre jogos da FURIA, streamers online e muito mais.
 
+A aplicação busca proporcionar uma experiência dinâmica para os fãs da FURIA, conectando-os a conteúdo de seus jogos e jogadores preferidos, além de interagir diretamente com a comunidade.
 ---
 
 ## ✨ Funcionalidades
@@ -21,6 +22,8 @@ Este projeto foi desenvolvido como parte de um processo seletivo para a **FURIA 
 - **Frontend:** React, Next.js
 - **Backend:** Node.js, TypeScript
 - **Bot:** Telegram Bot API
+- **Auth:** JWT
+- **Estilização:** Tailwind
 - **Banco de dados:** MySQL
 - **Deploy:** Vercel
 ---
