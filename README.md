@@ -93,9 +93,11 @@ cd ArenaFuria
 npm install
 ```
 **3. Configure o .env**
+
 Crie um arquivo .env e preencha com as variáveis listadas acima.
 
 **4. Importe o SQL no seu banco de dados**
+
 Crie um schema com nome **arena_furia** e importe o arquivo `arena_furia.sql` para dentro do schema e incie seu banco de dados
 
 **5. Inicie o projeto**
