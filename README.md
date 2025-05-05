@@ -92,13 +92,8 @@ npm install
 **3. Configure o .env**
 Crie um arquivo .env.local e preencha com as variáveis listadas acima.
 
-**4. Inicie a landing page**
+**4. Inicie o projeto**
 ```
-npm run dev
-```
-**5. Inicie o bot**
-```
-cd bot
 npm run dev
 ```
 
