@@ -22,7 +22,7 @@ Este projeto foi desenvolvido como parte de um processo seletivo para a **FURIA 
 - **Backend:** Node.js, TypeScript
 - **Bot:** Telegram Bot API
 - **Banco de dados:** MySQL
-
+- **Deploy:** Vercel
 ---
 
 ## 🛠️ Scripts
