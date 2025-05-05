@@ -102,11 +102,8 @@ cd bot
 npm run dev
 ```
 
-### 👤 Sobre o Desenvolvedor
+### 👤 Desenvolvedor
 **Guilherme Neves M Ferraz**
 **📧 guilhermemferraz@hotmail.com**
 **🔗 LinkedIn: *https://www.linkedin.com/in/guilherme-neves-a749052a2/***
-
-## 🏁 Considerações Finais
-Este projeto foi desenvolvido com foco em performance, integração com APIs populares e uma experiência interativa para os fãs da FURIA E-Sports. Espero que gostem!
 
