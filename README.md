@@ -81,8 +81,8 @@ GOOGLE_CLIENT_CERT_URL=
 ## 🧪 Como Rodar 
 **1. Clone o repositório**
 ```
-git clone https://github.com/seu-usuario/nome-do-projeto.git
-cd nome-do-projeto
+git clone https://github.com/GNevez/ArenaFuria.git
+cd ArenaFuria
 ```
 
 **2. Instale as dependências**
@@ -90,7 +90,7 @@ cd nome-do-projeto
 npm install
 ```
 **3. Configure o .env**
-Crie um arquivo .env.local e preencha com as variáveis listadas acima.
+Crie um arquivo .env e preencha com as variáveis listadas acima.
 
 **4. Inicie o projeto**
 ```
