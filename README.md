@@ -22,7 +22,7 @@ A aplicação busca proporcionar uma experiência dinâmica para os fãs da FURI
 - **Frontend:** React, Next.js
 - **Backend:** Node.js, TypeScript
 - **Bot:** Telegram Bot API
-- **Auth:** JWT
+- **Auth:** JWT e Cookies
 - **Estilização:** Tailwind
 - **Banco de dados:** MySQL
 - **Deploy:** Vercel
