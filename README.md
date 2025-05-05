@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 FURIA Arena - Landing Page & Telegram Bot
 
-## Getting Started
+Este projeto foi desenvolvido como parte de um processo seletivo para a **FURIA E-Sports**. Trata-se de uma **Landing Page** com sistema de login e cadastro, integração com APIs de jogos, quizzes interativos, e um bot do Telegram que envia notificações aos usuários.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Funcionalidades
+
+### 🌐 Landing Page
+
+- Sistema de login e cadastro com autenticação JWT
+- Dashboard com quizzes interativos ("Qual o seu nível de FURIA?")
+- Integração com a Twitch API para listar streamers online
+- Integração com a Steam API para coletar informações de jogos
+- Exibição de informações sobre jogos do dia e jogadores da FURIA
+
+### 🤖 Bot do Telegram
+
+- Notificações de jogos da FURIA
+- Notificações de streamers online
+- Atualizações diárias para os usuários
+
+---
+
+## 🧠 Tecnologias Utilizadas
+
+- **Frontend:** React, Next.js
+- **Backend:** Node.js, TypeScript
+- **Bot:** Telegram Bot API
+- **Banco de dados:** MySQL
+
+---
+
+## 🛠️ Scripts
+
+### 📦 Landing Page
+
+```json
+"scripts": {
+  "dev": "next dev",
+  "build": "npx next build",
+  "start": "next start",
+  "lint": "next lint"
+}
+```
+### 🤖 Bot
+
+```
+"scripts": {
+  "start": "ts-node src/index.ts",
+  "bot": "ts-node src/index.ts",
+  "api": "nodemon src/api.ts",
+  "dev": "concurrently \"npm run bot\" \"npm run api\"",
+  "build": "tsc"
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧠  Variaveis de Ambiente
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+# Frontend
+NEXT_PUBLIC_ENCRYPTION_KEY=
+NEXT_PUBLIC_BASE_URL=
+JWT_SECRET=
+JWT_EXPIRES_IN=
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Backend
+BOT_API_URL=
+STEAM_API_KEY=
+TWITCH_CLIENT_ID=
+TWITCH_CLIENT_SECRET=
+TWITCH_REDIRECT_URI=
+DB_PASSWORD=
 
-## Learn More
+# Google Credentials
+GOOGLE_PROJECT_ID=
+GOOGLE_PRIVATE_KEY_ID=
+GOOGLE_PRIVATE_KEY=
+GOOGLE_CLIENT_EMAIL=
+GOOGLE_CLIENT_ID=
+GOOGLE_AUTH_URI=
+GOOGLE_TOKEN_URI=
+GOOGLE_AUTH_PROVIDER_CERT_URL=
+GOOGLE_CLIENT_CERT_URL=
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 Como Rodar 
+**1. Clone o repositório**
+```
+git clone https://github.com/seu-usuario/nome-do-projeto.git
+cd nome-do-projeto
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**2. Instale as dependências**
+```
+npm install
+```
+**3. Configure o .env**
+Crie um arquivo .env.local e preencha com as variáveis listadas acima.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**4. Inicie a landing page**
+```
+npm run dev
+```
+**5. Inicie o bot**
+```
+cd bot
+npm run dev
+```
+### 🚀 Deploy na Vercel
+Para subir o projeto na Vercel via CLI:
 
-## Deploy on Vercel
+```
+vercel login
+vercel
+```
+Configure as variáveis de ambiente no painel da Vercel ou via vercel env.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 👤 Sobre o Desenvolvedor
+**Guilherme Neves M Ferraz**
+**📧 guilhermemferraz@hotmail.com**
+**🔗 LinkedIn: *https://www.linkedin.com/in/guilherme-neves-a749052a2/***
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🏁 Considerações Finais
+Este projeto foi desenvolvido com foco em performance, integração com APIs populares e uma experiência interativa para os fãs da FURIA E-Sports. Espero que gostem!
+
