@@ -9,18 +9,12 @@ Este projeto foi desenvolvido como parte de um processo seletivo para a **FURIA 
 ### 🌐 Landing Page
 
 - Sistema de login e cadastro com autenticação JWT
+- Mantimento de login via *Cookies*
 - Dashboard com quizzes interativos ("Qual o seu nível de FURIA?")
 - Integração com a Twitch API para listar streamers online
 - Integração com a Steam API para coletar informações de jogos
 - Exibição de informações sobre jogos do dia e jogadores da FURIA
-
-### 🤖 Bot do Telegram
-
-- Notificações de jogos da FURIA
-- Notificações de streamers online
-- Atualizações diárias para os usuários
-
----
+- Know your fan
 
 ## 🧠 Tecnologias Utilizadas
 
